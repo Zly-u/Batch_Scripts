@@ -1,4 +1,5 @@
 @echo off
+echo syntax: cav.bat [out_folder]
 
 SET OUT_DIR=%1
 
