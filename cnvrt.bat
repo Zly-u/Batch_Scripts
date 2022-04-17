@@ -9,4 +9,4 @@ IF "%FORMAT%"=="." (
 	TIMEOUT /T 3 >nul 2>nul
 )
 
-ffmpeg -y -i "%1" "%~dpn1"_converted%FORMAT%
+ffmpeg -y -i "%~dpnx1" "%~dpn1"_converted%FORMAT%
