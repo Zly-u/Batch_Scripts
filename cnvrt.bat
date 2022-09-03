@@ -1,5 +1,5 @@
 @echo off
-echo syntax: convert.bat file_input [format]
+echo syntax: convert.bat <file_input> [format]
 
 SET FORMAT=.%2
 
