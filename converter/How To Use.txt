@@ -1,0 +1,14 @@
+Конвертирует дропнутые видосы под нужный формат, нет проблем с путями к файлам.
+
+Вызов converter_run.bat принимает такой формат: converter_run.bat <out format> <file1> [file2] [file3] [file..]
+Сделал пример скрипта converter_mp3_run.bat в который можно просто перетаскивать файлы и оно конвертирует их, чтобы адаптировать его под другие форматы вам просто надо внутри скрипта в переменной `FORMAT` вписать свой формат.
+
+
+===========================
+
+Converts dropped videos into it to the needed format, no problems with paths tha has spaces or whatever.
+
+Execution of `converter_run.bat` has this syntax: converter_run.bat <out format> <file1> [file2] [file3] [file..]
+
+An example script `converter_mp3_run.bat` has a Drag and Drop feature, just drop files into it and it will convert them.
+To adapt it to different formats just change a value in the variable `FORMAT` inside of the script.

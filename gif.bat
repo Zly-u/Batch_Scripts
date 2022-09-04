@@ -1,5 +1,5 @@
 @echo off
-echo syntax: gif.bat <file_input> [loops]
+echo syntax: gif.bat ^<file_input^> [loops]
 
 SET LOOPS=%2
 
