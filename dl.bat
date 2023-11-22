@@ -11,7 +11,7 @@ SET /P "URL=Enter URL: "
 @echo [1m[32mStarting the download[0m
 @echo.
 
-yt-dlp -f %FORMAT% --embed-metadata --embed-info-json  --add-metadata --parse-metadata "description:(?s)(?P<webpage_url>.+)" --write-description -o %TITLE% %URL%
+yt-dlp -f %FORMAT% -S vcodec:h264 --embed-metadata --embed-info-json  --add-metadata --parse-metadata "description:(?s)(?P<webpage_url>.+)" --write-description -o %TITLE% %URL%
 
 @echo.
 @echo [1m[33mNow fix the descriptions file formats:[0m
